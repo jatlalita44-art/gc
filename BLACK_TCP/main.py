@@ -3767,10 +3767,8 @@ def index():
     if request.method == "POST":
         USER_DATA["uid"] = request.form.get("username")
         USER_DATA["pw"] = request.form.get("password")
-		Uidd = USER_DATA["uid"]
-        Pww = USER_DATA["pw"]
         
-        return f"Username: {Uidd} , <br> Password: {Pww}"
+        return f"Username: {USER_DATA["uid"]} , <br> Password: {USER_DATA["pw"]}"
        
 
     return render_template("form.html")
