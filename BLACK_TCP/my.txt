@@ -1,0 +1,12 @@
+4373044373
+
+A20C1906CD2C761E2AEFC0007D72EEFA29B48565811E2D03D766C43F9C7425C7
+
+
+
+username = input("Enter Username: ")
+password = input("Enter Password: ")
+ 
+async def MaiiiinE():
+
+    Uid , Pw = username,password
